@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  19 NOV 2021 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  19 NOV 2021 16:56
 entering extended mode
 **./latex-example.tex
 (latex-example.tex
@@ -298,20 +298,20 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (latex-example.aux)
 \openout1 = `latex-example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (/home/pranay/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -366,50 +366,56 @@ G,.JBIG2,.JB2,.eps]
 (/home/pranay/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
 
 (/home/pranay/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 (/home/pranay/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (sections/abstract.tex) (sections/introduction.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--35
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--34
 \OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
 bserve the conference
  []
 
 (sections/process-model.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--38
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--37
 \OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
 bserve the conference
  []
 
 (sections/team-organization.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--41
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--40
 \OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
 bserve the conference
  []
 
 (sections/task-distribution.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--44
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--43
 \OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
 bserve the conference
  []
 
 (sections/requirement-management.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--47
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--46
 \OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
 bserve the conference
  []
 
 (sections/use-case.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--50
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--49
+\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
+bserve the conference
+ []
+
+(sections/lists.tex)
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--52
 \OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
 bserve the conference
  []
@@ -417,27 +423,21 @@ bserve the conference
 [1
 
 {/home/pranay/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-(sections/lists.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--53
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
- []
-
 (sections/risks.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--56
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--55
 \OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
 bserve the conference
  []
 
 [2] (latex-example.aux) ) 
 Here is how much of TeX's memory you used:
- 4398 strings out of 480844
- 67113 string characters out of 2903615
- 450262 words of memory out of 3000000
- 21935 multiletter control sequences out of 15000+600000
- 410261 words of font info for 54 fonts, out of 8000000 for 9000
+ 4395 strings out of 480844
+ 67085 string characters out of 2903615
+ 450134 words of memory out of 3000000
+ 21933 multiletter control sequences out of 15000+600000
+ 410094 words of font info for 53 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,5n,81p,306b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,5n,81p,306b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/pranay/.miktex/texmfs/install/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/publi
 c/amsfonts/cm/cmbx9.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public
@@ -445,11 +445,10 @@ c/amsfonts/cm/cmbx9.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public
 amsfonts/cm/cmr6.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/am
 sfonts/cm/cmr7.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsf
 onts/cm/cmr9.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmti9.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmtt9.pfb>
-Output written on latex-example.pdf (2 pages, 121183 bytes).
+ts/cm/cmti9.pfb>
+Output written on latex-example.pdf (2 pages, 108803 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
