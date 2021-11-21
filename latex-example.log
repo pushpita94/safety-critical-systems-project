@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  19 NOV 2021 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  21 NOV 2021 23:58
 entering extended mode
 **./latex-example.tex
 (latex-example.tex
@@ -298,20 +298,20 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (latex-example.aux)
 \openout1 = `latex-example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (/home/pranay/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -366,89 +366,80 @@ G,.JBIG2,.JB2,.eps]
 (/home/pranay/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
 
 (/home/pranay/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
 
 (/home/pranay/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(sections/abstract.tex) (sections/introduction.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--34
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
+(sections/introduction.tex
+Overfull \hbox (2.0437pt too wide) in paragraph at lines 2--5
+\OT1/cmr/m/n/10 Predictive maintenance is a technique that uses data analysis t
+ools and techniques
  []
 
-(sections/process-model.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--37
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
+) (sections/process-model.tex)
+Overfull \hbox (4.84932pt too wide) in paragraph at lines 2--38
+\OT1/cmr/m/n/10 Agile-Scrum software development: Scrum is an agile methodology
+ where products
  []
 
-(sections/team-organization.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--40
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
- []
-
-(sections/task-distribution.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--43
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
- []
-
-(sections/requirement-management.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--46
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
- []
-
-(sections/use-case.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--49
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
- []
-
-(sections/lists.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--52
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
- []
-
-[1
+(sections/team-organization.tex) (sections/task-distribution.tex) [1
 
 {/home/pranay/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-(sections/risks.tex)
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 2--55
-\OT1/cmr/m/n/10 This document is a model and instructions for L[]T[]X. Please o
-bserve the conference
+(sections/requirement-management.tex) (sections/use-case.tex
+Overfull \hbox (25.26146pt too wide) in paragraph at lines 3--5
+[]\OT1/cmr/bx/n/10 Anti-lock Braking system and Traction Control Systems: \OT1/
+cmr/m/n/10 ABS components
  []
 
-[2] (latex-example.aux) ) 
+
+Overfull \hbox (3.01599pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/n/10 threshold voltage that battery must have, and notify to users i
+mmediately. 
+ []
+
+
+Overfull \hbox (19.23398pt too wide) in paragraph at lines 16--17
+[]\OT1/cmr/bx/n/10 Autonomous Emergency braking system \OT1/cmr/m/n/10 is a cru
+cial part of the autonomous
+ []
+
+[2]
+Overfull \hbox (7.90254pt too wide) in paragraph at lines 21--22
+[]\OT1/cmr/bx/n/10 Roadside assistance: \OT1/cmr/m/n/10 Vehicle data helps road
+side service providers determine
+ []
+
+
+Overfull \hbox (13.4603pt too wide) in paragraph at lines 21--22
+\OT1/cmr/m/n/10 determine if roadside assistance is even needed: maybe over-the
+-phone assistance
+ []
+
+) (sections/lists.tex) (sections/risks.tex) [3] (latex-example.aux) ) 
 Here is how much of TeX's memory you used:
- 4395 strings out of 480844
- 67085 string characters out of 2903615
- 450134 words of memory out of 3000000
- 21933 multiletter control sequences out of 15000+600000
- 410094 words of font info for 53 fonts, out of 8000000 for 9000
+ 4363 strings out of 480844
+ 66665 string characters out of 2903615
+ 454108 words of memory out of 3000000
+ 21910 multiletter control sequences out of 15000+600000
+ 406946 words of font info for 41 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,5n,81p,306b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/pranay/.miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmbx9.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr9.pfb></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmti9.pfb>
-Output written on latex-example.pdf (2 pages, 108803 bytes).
+ 70i,5n,81p,1004b,194s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/pra
+nay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/pra
+nay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/pra
+nay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/pran
+ay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on latex-example.pdf (3 pages, 77905 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
