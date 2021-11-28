@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  22 NOV 2021 00:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  28 NOV 2021 23:27
 entering extended mode
 **./safety-critical-system-project-report.tex
 (safety-critical-system-project-report.tex
@@ -295,25 +295,28 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip56
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (safety-critical-system-project-report.aux)
+) (safety-critical-system-project-report.aux
+
+LaTeX Warning: Label `fig:linear-regression' multiply defined.
+
+)
 \openout1 = `safety-critical-system-project-report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-
-(/home/pranay/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+ (/home/pranay/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count311
 \scratchdimen=\dimen172
@@ -366,13 +369,13 @@ G,.JBIG2,.JB2,.eps]
 (/home/pranay/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 
 
 (/home/pranay/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 
 (/home/pranay/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -385,7 +388,7 @@ ools and techniques
  []
 
 ) (sections/process-model.tex)
-Overfull \hbox (4.84932pt too wide) in paragraph at lines 2--38
+Overfull \hbox (4.84932pt too wide) in paragraph at lines 2--39
 \OT1/cmr/m/n/10 Agile-Scrum software development: Scrum is an agile methodology
  where products
  []
@@ -423,25 +426,50 @@ Overfull \hbox (13.4603pt too wide) in paragraph at lines 21--22
 -phone assistance
  []
 
-) (sections/lists.tex) (sections/risks.tex) [3]
-(safety-critical-system-project-report.aux) ) 
+) (sections/lists.tex) (sections/risks.tex) [3] (sections/data-flow.tex
+<images/DFD.drawio.png, id=15, 659.46375pt x 438.63875pt>
+File: images/DFD.drawio.png Graphic file (type png)
+<use images/DFD.drawio.png>
+Package pdftex.def Info: images/DFD.drawio.png  used on input line 5.
+(pdftex.def)             Requested size: 416.54718pt x 277.07341pt.
+
+Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+) [4 <./images/DFD.drawio.png>] (sections/control-flow.tex
+<images/Control Flow.png, id=22, 889.52325pt x 471.56175pt>
+File: images/Control Flow.png Graphic file (type png)
+<use images/Control Flow.png>
+Package pdftex.def Info: images/Control Flow.png  used on input line 5.
+(pdftex.def)             Requested size: 416.54718pt x 220.82816pt.
+
+Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+) [5 <./images/Control Flow.png>] (safety-critical-system-project-report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4363 strings out of 480844
- 66953 string characters out of 2903615
- 454132 words of memory out of 3000000
- 21910 multiletter control sequences out of 15000+600000
- 406946 words of font info for 41 fonts, out of 8000000 for 9000
+ 4395 strings out of 480844
+ 67763 string characters out of 2903615
+ 454196 words of memory out of 3000000
+ 21931 multiletter control sequences out of 15000+600000
+ 407254 words of font info for 42 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,5n,81p,1028b,194s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/pranay/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/pranay/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/pranay/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/pranay/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on safety-critical-system-project-report.pdf (3 pages, 77905 byt
-es).
+ 70i,6n,81p,1028b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on safety-critical-system-project-report.pdf (5 pages, 132581 by
+tes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
