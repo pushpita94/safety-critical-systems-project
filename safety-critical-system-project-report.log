@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  28 NOV 2021 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  29 NOV 2021 07:55
 entering extended mode
 **./safety-critical-system-project-report.tex
 (safety-critical-system-project-report.tex
@@ -414,19 +414,7 @@ Overfull \hbox (19.23398pt too wide) in paragraph at lines 16--17
 cial part of the autonomous
  []
 
-[2]
-Overfull \hbox (7.90254pt too wide) in paragraph at lines 21--22
-[]\OT1/cmr/bx/n/10 Roadside assistance: \OT1/cmr/m/n/10 Vehicle data helps road
-side service providers determine
- []
-
-
-Overfull \hbox (13.4603pt too wide) in paragraph at lines 21--22
-\OT1/cmr/m/n/10 determine if roadside assistance is even needed: maybe over-the
--phone assistance
- []
-
-) (sections/lists.tex) (sections/risks.tex) [3] (sections/data-flow.tex
+[2]) (sections/lists.tex) (sections/risks.tex) [3] (sections/data-flow.tex
 <images/DFD.drawio.png, id=15, 659.46375pt x 438.63875pt>
 File: images/DFD.drawio.png Graphic file (type png)
 <use images/DFD.drawio.png>
@@ -460,13 +448,13 @@ Here is how much of TeX's memory you used:
  21931 multiletter control sequences out of 15000+600000
  407254 words of font info for 42 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,6n,81p,1028b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,6n,81p,707b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pf
 b></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 ></home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on safety-critical-system-project-report.pdf (5 pages, 132581 by
+Output written on safety-critical-system-project-report.pdf (5 pages, 131110 by
 tes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
