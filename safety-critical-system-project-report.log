@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  2 DEC 2021 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  2 DEC 2021 19:52
 entering extended mode
 **./safety-critical-system-project-report.tex
 (safety-critical-system-project-report.tex
@@ -394,25 +394,64 @@ Overfull \hbox (4.84932pt too wide) in paragraph at lines 2--39
 
 {/home/pranay/.miktex/texmfs/data/pdftex/config/pdftex.map}]
 (sections/requirement-management.tex) (sections/use-case.tex
-Overfull \hbox (25.26146pt too wide) in paragraph at lines 3--5
-[]\OT1/cmr/bx/n/10 Anti-lock Braking system and Traction Control Systems: \OT1/
-cmr/m/n/10 ABS components
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
  []
 
 
-Overfull \hbox (3.01599pt too wide) in paragraph at lines 8--9
-\OT1/cmr/m/n/10 threshold voltage that battery must have, and notify to users i
-mmediately. 
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Overfull \hbox (9.15489pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/10 Vibration condition monitoring can be utilized as a technique
+ for early detection
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
  []
 
 [2]
-Overfull \hbox (19.23398pt too wide) in paragraph at lines 16--17
-[]\OT1/cmr/bx/n/10 Autonomous Emergency braking system \OT1/cmr/m/n/10 is a cru
-cial part of the autonomous
+Underfull \hbox (badness 10000) in paragraph at lines 12--18
+
  []
 
-) (sections/lists.tex) (sections/milestone.tex
-<images/milestone.png, id=12, 1100.11pt x 175.65625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+
+ []
+
+
+Overfull \hbox (15.23917pt too wide) in paragraph at lines 27--33
+\OT1/cmr/bx/n/10 Description: \OT1/cmr/m/n/10 The application will inform the u
+ser if the gearbox needs maintenance. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+
+ []
+
+(sections/lists.tex) (sections/milestone.tex
+<images/milestone.png, id=15, 1100.11pt x 175.65625pt>
 File: images/milestone.png Graphic file (type png)
 <use images/milestone.png>
 Package pdftex.def Info: images/milestone.png  used on input line 5.
@@ -422,8 +461,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) (sections/risks.tex) [3] (sections/data-flow.tex
-<images/DFD.drawio.png, id=16, 659.46375pt x 438.63875pt>
+[4]) (sections/risks.tex) [5 <./images/milestone.png>] (sections/data-flow.tex
+<images/DFD.drawio.png, id=23, 659.46375pt x 438.63875pt>
 File: images/DFD.drawio.png Graphic file (type png)
 <use images/DFD.drawio.png>
 Package pdftex.def Info: images/DFD.drawio.png  used on input line 5.
@@ -433,9 +472,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [4 <./images/milestone.png> <./images/DFD.drawio.png>]
-(sections/control-flow.tex
-<images/Control Flow.png, id=23, 889.52325pt x 471.56175pt>
+) [6 <./images/DFD.drawio.png>] (sections/control-flow.tex
+<images/Control Flow.png, id=29, 889.52325pt x 471.56175pt>
 File: images/Control Flow.png Graphic file (type png)
 <use images/Control Flow.png>
 Package pdftex.def Info: images/Control Flow.png  used on input line 5.
@@ -445,25 +483,25 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [5 <./images/Control Flow.png>] (safety-critical-system-project-report.aux) )
+) [7 <./images/Control Flow.png>] (safety-critical-system-project-report.aux) )
  
 Here is how much of TeX's memory you used:
  4406 strings out of 480844
  68078 string characters out of 2903615
- 454158 words of memory out of 3000000
+ 452158 words of memory out of 3000000
  21939 multiletter control sequences out of 15000+600000
  407254 words of font info for 42 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,6n,81p,707b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,6n,81p,547b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on safety-critical-system-project-report.pdf (5 pages, 143006 by
+Output written on safety-critical-system-project-report.pdf (7 pages, 145093 by
 tes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,20 +1,53 @@
 \label{sec:use-case}
-\begin{itemize}
-	 \item \textbf{Anti-lock Braking system and Traction Control Systems:} ABS components include: a wheel- speed sensor, a hydraulic modulator and an Electronic Control Unit (ECU) for signal processing and control and triggering of the signal lamp and of the actuators in the hydraulic modulator.
-	 If any of these components malfunction and the user is not notified in time to take corrective steps, there can be grave danger to the driver’s, passengers’ and pedestrians’ lives.
-	 
-	 \item \textbf{Airbags:} There are a number of other reasons that may cause the airbags to fail.
-	 \begin{enumerate}
-	 	\item \textbf{Airbag backup battery} has already been depleted- Check for it have a threshold voltage that battery must have, and notify to users immediately.
-	 	\item \textbf{Faulty Sensors:} Sensors may malfunction or be inadvertently tripped, which might fail to deploy during actual crash.
-	 	\item \textbf{Soaked Airbag Module:} If your vehicle has been touched by water damage (maybe have a sensor to get the moisture level if it is regularly exposed and increasing moisture/water particles.
-	 	\item \textbf{Damaged Airbag Clock Spring:} he airbag clock spring is there for the continuity between the electrical wiring of your vehicle and your driver-side airbag. The rotary electrical connector allows the steering wheel to turn while keeping a connection between the wheel’s airbag, horn, and the electrical system. So, if the clock spring isn’t working, then the airbag won’t deploy. The clock spring will coil in and out with every turn of your steering wheel so it is only normal that it will become worn out over time. The poor connection will give way for potential airbag failures 
-	 \end{enumerate}
-	 
-	 \item \textbf{Seat belt system switch sensors:} Seat belts plays major role in safety for effective working of airbags.
-	 
-	 \item \textbf{Autonomous Emergency braking system }is a crucial part of the autonomous car. It one of the standard safety equipment of a self-driving car. This AEB works by scanning the distance of the road measuring the distance of the front road. And everything is controlled here by using sensors like ultrasonic sensors etc. If these sensors don’t work properly collision may occur. So, one of the approaches of our system to diagnose whether these sensors work properly, if not it will notify the user for maintenance.
-	 
-	 \item \textbf{Air pressure systems} also called as compressed air brake system, is a type of friction brake for vehicles in which compressed air pressing on a piston is used to apply the pressure to the brake pad or brake shoe needed to stop the vehicle. Air brakes are typically used in heavy trucks and buses. Typical operating pressure is approximately 100–120 psi. An Air Pressure System has 5 components i.e. Air compressor, Reservoirs, Foot valve, Brake chambers, Brake shoes and drums.
 
-\end{itemize}
+A gearbox is a mechanical device that increases the output torque of a motor or changes its speed. The shaft of the motor is connected to one end of the gearbox, which delivers a particular output torque and speed dictated by the gear ratio according to the internal gear design of the gearbox. \\
+The physical components of gearboxes vary depending on the type of gearbox, as well as between manufacturers. The majority of gearboxes are made of steel, such as iron, aluminum, and brass. As a result, it is open and susceptible to wear and tear throughout its lifespan.\\
+
+When the gearbox fails, it is because the gears are worn out.\\
+
+Vibration condition monitoring can be utilized as a technique for early detection of a wide range of defects in mechanical parts. Using the same technique, we can predict failures in gearboxes. For this we have used a dataset which was derived using four vibration sensors placed in four different direction inside the gearbox subjected to variable load. The data was recorded in 2 gear conditions: healthy and broken tooth, each under variable load.\\
+
+\subsection{Use-Case 1}
+
+\textbf{Title:} Application Start\\
+\textbf{Description:} The application will start at the ‘Statistical Inferences’ page smoothly\\
+\textbf{Primary Actor:} Client\\
+\textbf{Precondition:} None\\
+\textbf{Postcondition:} Application starts with ‘Statistical Inferences’ page.\\
+\textbf{Main Success Scenario:} Application starts smoothly.\\
+
+\subsection{Use-Case 2}
+\textbf{Title: }Loading of ‘Statistical Inferences’ page\\
+\textbf{Description:} The user should be notified with proper GUI if there is any delay in loading this page.\\
+\textbf{Primary Actor:} Database\\
+\textbf{Precondition:} Database has valid data and the user starts the application\\
+\textbf{Postcondition:} ‘Statistical Inferences’ page loads up properly or the user gets notified about the delay if any\\
+\textbf{Main Success Scenario:} ‘Statistical Inferences’ page loads up properly\\
+\subsection{Use-Case 3}
+\textbf{Title:} Starting ‘Gearbox Maintenance \& Failure Prediction’\\
+\textbf{Description:} The application will inform the user if the gearbox needs maintenance.\\
+\textbf{Primary Actor:} Client\\
+\textbf{Precondition:} Client has triggered ‘Gearbox Maintenance \& Failure Prediction’\\
+\textbf{Postcondition:} The user gets notified if the gearbox needs maintenance with a pop-up window.\\
+\textbf{Main Success Scenario:} The user gets notified if the gearbox is healthy / needs maintenance or has broken and needs replacement\\
+\subsection{Use-Case 4}
+\textbf{Title:} Pop-up window for notifying the client\\
+\textbf{Description: }The application will inform the user about the maintenance status of the gearbox with a pop-up. \\
+\textbf{Primary Actor:} \\
+\textbf{Precondition: }Client has triggered ‘Gearbox Maintenance \& Failure Prediction’ using the Start button\\
+\textbf{Postcondition: }The user gets notified with a pop-up window display the current status of the gearbox.\\
+\textbf{Main Success Scenario:} The user gets notified if the gearbox is healthy / needs maintenance or has broken and needs replacement\\
+\subsection{Use-Case 5}
+\textbf{Title:} Loading of ‘Historical Logs’ page\\
+\textbf{Description:} The application should display timestamped logs to the user\\
+\textbf{Primary Actor: }Database\\
+\textbf{Precondition:} ‘Gearbox Maintenance \& Failure Prediction’ has already been triggered by the client at least once \\
+\textbf{Postcondition:} The application should display relevant logs to the client \\
+\textbf{Main Success Scenario:} Logs are displayed to the client \\
+\subsection{Use-Case 6}
+\textbf{Title: }Display of gearbox status using an GUI Indicator\\
+\textbf{Description: }The application should display the gearbox status to the client with the help of a GUI Indicator\\
+\textbf{Primary Actor:} -\\
+\textbf{Precondition:} ‘Gearbox Maintenance \& Failure Prediction’ has already been triggered by the client at least once\\
+\textbf{Postcondition:} The application should green for healthy gearbox, yellow for a gearbox which needs maintenance and red for a gearbox that has broken and needs replacement\\
+\textbf{Main Success Scenario: }The application displays the gearbox status to the client\\
