@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  16 DEC 2021 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  16 DEC 2021 13:38
 entering extended mode
 **./safety-critical-system-project-report.tex
 (safety-critical-system-project-report.tex
@@ -462,7 +462,35 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  []
 
 [4]) (sections/risks.tex) (sections/requirement.tex) [5 <./images/milestone.png
->] (sections/data-flow.tex
+>] (sections/effort.tex
+Overfull \hbox (30.53271pt too wide) in paragraph at lines 4--14
+ [] 
+ []
+
+
+! Package inputenc Error: Unicode character ∑ (U+2211)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 CAF = $0.65+ (0.01 * ∑
+                             Fi)$ \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+) (sections/data-flow.tex
 <images/DFD.drawio.png, id=23, 659.46375pt x 438.63875pt>
 File: images/DFD.drawio.png Graphic file (type png)
 <use images/DFD.drawio.png>
@@ -473,8 +501,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [6 <./images/DFD.drawio.png>] (sections/control-flow.tex
-<images/Control Flow.png, id=29, 889.52325pt x 471.56175pt>
+) [6] [7 <./images/DFD.drawio.png>] (sections/control-flow.tex
+<images/Control Flow.png, id=35, 889.52325pt x 471.56175pt>
 File: images/Control Flow.png Graphic file (type png)
 <use images/Control Flow.png>
 Package pdftex.def Info: images/Control Flow.png  used on input line 5.
@@ -484,25 +512,27 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [7 <./images/Control Flow.png>] (safety-critical-system-project-report.aux) )
+) [8 <./images/Control Flow.png>] (safety-critical-system-project-report.aux) )
  
 Here is how much of TeX's memory you used:
- 4412 strings out of 480844
- 68272 string characters out of 2903615
- 452167 words of memory out of 3000000
- 21942 multiletter control sequences out of 15000+600000
+ 4419 strings out of 480844
+ 68443 string characters out of 2903615
+ 461176 words of memory out of 3000000
+ 21946 multiletter control sequences out of 15000+600000
  407254 words of font info for 42 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,6n,81p,547b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,7n,81p,547b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+/home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on safety-critical-system-project-report.pdf (7 pages, 146187 by
+home/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></ho
+me/pranay/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on safety-critical-system-project-report.pdf (8 pages, 169265 by
 tes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
