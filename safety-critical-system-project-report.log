@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  16 DEC 2021 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  16 DEC 2021 15:31
 entering extended mode
 **./safety-critical-system-project-report.tex
 (safety-critical-system-project-report.tex
@@ -475,8 +475,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 CAF = $0.65+ (0.01 * ∑
-                             Fi)$ \\
+l.39  CAF = $0.65+ (0.01 * $∑
+                               Fi$)$ \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -486,7 +486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
@@ -569,8 +569,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) (sections/hazard.tex
-<images/hazard-analysis.png, id=61, 812.03375pt x 669.50125pt>
+) [13 <./images/system-architecture.png>] (sections/hazard.tex
+<images/hazard-analysis.png, id=66, 812.03375pt x 669.50125pt>
 File: images/hazard-analysis.png Graphic file (type png)
 <use images/hazard-analysis.png>
 Package pdftex.def Info: images/hazard-analysis.png  used on input line 5.
@@ -580,28 +580,143 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [13 <./images/system-architecture.png>] [14 <./images/hazard-analysis.png>]
-(safety-critical-system-project-report.aux) ) 
+) [14 <./images/hazard-analysis.png>] (sections/safety.tex
+Overfull \hbox (4.18257pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 hazard analysis results when it is subjected to specific enviro
+nmental and technical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[15]
+Overfull \hbox (5.12706pt too wide) in paragraph at lines 78--79
+[]\OT1/cmr/m/n/10 Hardware issues or deadlocks arising due to improper transact
+ion management 
+ []
+
+
+Overfull \hbox (7.84927pt too wide) in paragraph at lines 85--86
+[]\OT1/cmr/m/n/10 Ensure orderly execution of optimized queries to avoid deadlo
+cks and scheduled
+ []
+
+
+Overfull \hbox (15.73816pt too wide) in paragraph at lines 86--87
+[]\OT1/cmr/m/n/10 Scheduled maintenance checks should be carried out to ensure 
+proper functioning
+ []
+
+[16]) (sections/question.tex
+Overfull \hbox (53.84819pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Theoretic Mischance Modelling and Processes (STAMP) has been ut
+ilized in different zones to
+ []
+
+[17]
+Overfull \hbox (19.57147pt too wide) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/10 Leveson published Systems-Theoretic Accident Modeling and Pro
+cesses (STAMP)
+ []
+
+
+Overfull \hbox (19.51596pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/10 assessment). They impose patterns on accidents in accident inve
+stigations, influencing
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Overfull \hbox (5.34929pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 than engineering strategies to deal with it are being developed
+. When outdated
+ []
+
+
+Overfull \hbox (7.37694pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/10 Decrease in Single-accident tolerance: As the cost and potent
+ial destructiveness
+ []
+
+
+Overfull \hbox (1.43271pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 moving from the individual to the government in our increasingl
+y complicated
+ []
+
+
+Overfull \hbox (8.15489pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 stronger role in regulating behavior through laws and other typ
+es of supervision
+ []
+
+
+Overfull \hbox (9.21042pt too wide) in paragraph at lines 29--30
+[]\OT1/cmr/m/n/10 ncrease in complexity and coupling: The majority of the eleme
+nts of complexity,
+ []
+
+
+Overfull \hbox (13.12703pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 particularly interactive complexity, are rising in the systems 
+we are constructing.
+ []
+
+
+Overfull \hbox (2.96043pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 can't be completely planned, understood, predicted, or avoided.
+ Some systems
+ []
+
+
+Overfull \hbox (5.48822pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 control in systems with a large number of dynamically interacti
+ng components,
+ []
+
+[19]
+Overfull \hbox (0.68268pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/n/10 interactions among system components are not adequately handled
+ by the control
+ []
+
+)
+Overfull \hbox (3.12944pt too wide) in paragraph at lines 56--96
+[]\OT1/cmr/bx/n/10 The Central Role of Constraints in System Safety \OT1/cmr/m/
+n/10 Safety is an emergent
+ []
+
+
+Overfull \hbox (3.59924pt too wide) in paragraph at lines 56--96
+\OT1/cmr/m/n/10 behavior of the system components govern or enforce emergent fe
+atures. Accidents
+ []
+
+[20] [21] (safety-critical-system-project-report.aux) ) 
 Here is how much of TeX's memory you used:
- 4490 strings out of 480844
- 70748 string characters out of 2903615
- 461228 words of memory out of 3000000
- 21997 multiletter control sequences out of 15000+600000
+ 4501 strings out of 480844
+ 71082 string characters out of 2903615
+ 460248 words of memory out of 3000000
+ 22003 multiletter control sequences out of 15000+600000
  407254 words of font info for 42 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,7n,81p,547b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/pranay/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/pranay/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/pranay/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home/pranay/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/pranay/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/pranay/.miktex/texmfs/install
-/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/pranay/.miktex/texmfs/install/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on safety-critical-system-project-report.pdf (14 pages, 903598 b
+ 70i,7n,81p,1297b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/pranay/.miktex/te
+xmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/pranay/.miktex/te
+xmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/pranay/.miktex/te
+xmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home/pranay/.miktex/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/pranay/.miktex/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/pranay/.miktex/texm
+fs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/pranay/.miktex/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on safety-critical-system-project-report.pdf (21 pages, 922372 b
 ytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
