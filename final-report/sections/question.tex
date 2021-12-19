@@ -1,0 +1,57 @@
+\label{sec:question}
+New technology is causing fundamental changes in the etiology of accidents, necessitating adjustments in the explanatory processes now in use. The most effective models will go beyond assigning guilt and instead assist engineers in learning as much as possible about all of the elements at play, including social and organizational structures. Hazard analysis is essential for ensuring the safety of smart systems that are often controlled by software. Systems-Theoretic Mischance Modelling and Processes (STAMP) has been utilized in different zones to obtain more causal components amid risk examination as a novel causality model. However, the use of STAMP to date has been random, with no formal mechanism in place to efficiently study system threats, and the quality of the analysis results cannot be assured. Additionally, the time element has received less attention in STAMP-based analysis as a key source of risks. This work proposes a systematic technique for hazard analysis based on STAMP in order to overcome these drawbacks. And the Hazardous Control Action Tree (HCAT) is offered as a model and analytical tool for all circumstances that should be addressed in hazard analysis. 
+
+
+Leveson published Systems-Theoretic Accident Modeling and Processes (STAMP) to capture a broader variety of causative elements than event-chain models and increase the efficacy of software hazard assessments. The STAMP views the mishaps as the result of a lack of control or enforcement of safety limits during the system's development, design, and operation. And, based on STAMP, the System Theoretic Process Analysis (STPA) approach is created to identify the Hazardous Control Action (HCA) as the causes in the hazard analysis, which can violate safety-related constraints and contribute to system hazard. STPA's application, on the other hand, is ad hoc and lacks rigid processes, necessitating greater work, time, and associated deep expertise in the STPA process. 
+
+
+Although certain support tools, such as SARRA, have been given to aid with the STPA hazard analysis, these tools focus on preserving the consistency or traceability of the data rather than providing a systematic technique to detect the HCAs in the STPA process. The expanded STPA techniques with context table were presented by Thomas and Asim for incorporating all potential environmental factors in the HCA identification of STPA, but these methods do not focus on temporal conditions, and the analysis process still relies on the analysts.
+
+
+\textbf{Why do we need something new?}
+The current problem is that, our tools are 40 to 65 years old. But out technology is very different today. FMEA was introduced between the year 1945-1950. FTA, HAZOP and ETA came in the year 1960-1970. In the late 1970’s people started using computers in control which gave rise to exponential increase in complexity, lots of new technology, new ways of doing things and changes in the way humans work.
+
+
+Accident models are used to investigate and analyse accidents, as well as to prevent future ones and to determine whether systems are safe to use (risk assessment). They impose patterns on accidents in accident investigations, influencing both the data collected and the elements identified as responsible. They also serve as the foundation for all hazard analysis and risk assessment methods. They may operate as a filter and bias toward evaluating only particular occurrences and conditions, or they may broaden activities by demanding examination of aspects that are normally overlooked, because they alter the factors considered in any of these activities.
+
+
+Most accident models consider accidents to be the outcome of a series of events. For losses induced by physical component failures and for relatively simple systems, such models function effectively. However, since WWII, the types of systems we've attempted to develop, as well as the context in which they've been built, have shifted. These changes, are pushing the limitations of current accident models and safety engineering procedures, necessitating new approaches.
+
+
+
+The changes include-
+\begin{itemize}
+	\item Increasing technological changes: Technology is evolving at a quicker rate than engineering strategies to deal with it are being developed. When outdated technology are replaced with new ones, lessons accumulated through ages about designing to prevent accidents may be forgotten or rendered worthless.
+	\item Variants of Hazards: The most prevalent accident models are founded on the premise that accidents are caused by an uncontrolled and unwanted release of energy or an interruption in the usual flow of energy. Our growing reliance on information systems, however, raises the risk of data loss or incorrect data, which might result in unacceptably large physical, scientific, or financial losses.
+	\item Decrease in Single-accident tolerance: As the cost and potential destructiveness of the systems we design rises, so do the losses resulting from accidents. Our new scientific and technological discoveries have not only created new or increased hazards (such as radiation exposure and chemical pollution), but they have also provided the means to harm an increasing number of people as the scale of our systems grows, as well as to negatively impact future generations through pollution and genetic damage. In an age when a spacecraft, for example, might take ten years and cost a billion dollars to develop, financial losses and wasted opportunities for scientific advancement are on the rise. Accident lessons must be augmented with a greater emphasis on preventing the first one.
+	\item Changing Nature of Accidents: While digital technology has ushered in a quiet revolution in most sectors of engineering, methodologies in system engineering and system safety engineering have lagged behind. New "failure modes" introduced by digital systems are altering the character of accidents.
+	\item Changing public and regulatory awareness of safety: The duty for safety is moving from the individual to the government in our increasingly complicated and interconnected society framework. Individuals no longer have control over the hazards they face, and they are asking that the government take a stronger role in regulating behavior through laws and other types of supervision and regulation. As firms face rising time-to-market and financial challenges, the government will be forced to step in to offer the protection that the public expects. The alternative is for people and groups to appeal to the courts for protection, which might have even worse consequences, such as restricting innovation unnecessarily due to fear of legal action.
+	\item ncrease in complexity and coupling: The majority of the elements of complexity, particularly interactive complexity, are rising in the systems we are constructing. We're creating systems with possible interactions between components that can't be completely planned, understood, predicted, or avoided. Some systems are so complicated that they are beyond the comprehension of all but a few specialists, and even they have only a partial knowledge of their possible behavior. Software has helped us implement more integrated, multi-loop control in systems with a large number of dynamically interacting components, where tight coupling allows disruptions or dysfunctional interactions in one part of the system to have far-reaching rippling effects.
+	\item Complexity in relationship between Humans and Automation: Humans are increasingly sharing system control with automation and rising into higher-level decision-making roles, with automation carrying out the choices. These changes are leading to various new types of human errors.\\
+These developments are putting our accident models, as well as the accident prevention and risk assessment methodologies that are based on them, to the test. There is a need for new paradigms.
+	
+\end{itemize}
+
+
+\textbf{An Accident Model Based on Systems Theory}
+Systems-Theoretic Accident Model and Processes (STAMP) is a new conception of safety in which accidents occur when external disturbances, component failures, or dysfunctional interactions among system components are not adequately handled by the control system. The hypothesis underlying STAMP is that system theory is a useful way to analyze accidents. In this framework, understanding why an accident occurred requires determining why the control structure was ineffective. Safety then can be viewed as a control problem, and safety is managed by a control structure embedded in an adaptive socio-technical system. A control structure is designed to enforce constraints on system development and system operation that result in safe behavior.
+
+
+
+In STAMP, systems are viewed as interrelated components that are kept in a state of dynamic equilibrium by feedback loops of information and control. The original design must not only enforce appropriate constraints on behavior to ensure safe operation, but the system must continue to operate safely as changes occur. Safety management is no longer simply about preventing component failure events. Instead, it is defined as a continuous control task to impose the constraints necessary to limit system behavior to safe changes and adaptations. Accidents can be understood in terms of why the controls that were in place did not prevent or detect mal-adaptive changes.
+
+
+
+In STAMP, accidents are defined in terms of violations of safety constraints, which may result from
+\begin{enumerate}
+	\item system component failure(s),
+	\item environmental disturbances, and
+	\item  dysfunctional interactions among components
+\end{enumerate}
+
+
+Constraints, control loops and process models, and degrees of control are the fundamental principles of STAMP. Each of them is now detailed, followed by an accident factor categorization based on the new model and core systems theory ideas.
+
+
+\textbf{The Central Role of Constraints in System Safety}
+Safety is an emergent feature in systems theory that occurs when system components interact with their surroundings. A collection of restrictions (control rules) connected to the behavior of the system components govern or enforce emergent features. Accidents are caused by a lack of suitable interaction restrictions. In STAMP, a constraint, not an event, is the most fundamental idea. Accidents are said to occur as a result of a lack of appropriate system limitations. The system engineer, also known as a system safety engineer, is responsible for identifying the design constraints that must be adhered to in order to maintain safety, as well as ensuring that the system design, which includes not only the physical but also the social and organizational aspects of the system, does so.
