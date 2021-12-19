@@ -1,8 +1,8 @@
 \label{sec:safety}
 The safety plan was created following a thorough examination of the system's hazard analysis results when it is subjected to specific environmental and technical conditions. We incorporated several safety mechanisms that were considered safety constraints within the system if the system failed, because a hazard describes a system’s state that should not occur for safety reasons.  We conducted a preliminary hazard analysis to identify probable hazards and their contributing flaws in a systematic manner. We then chose which flaws to fix and how to mitigate them after discussing with each other. The mitigations were outlined as mandatory safety measures for the system.\\
 
-\subsection{SID: 1}		
-\textbf{Hazard Category:} Application is not accessible
+\subsection{Safety Requirement ID: 1}		
+\textbf{Hazard Category:} Application is not accessible\\
 \textbf{Hazard:}
 \begin{enumerate}
 	\item Application under maintenance.
@@ -20,8 +20,8 @@ The safety plan was created following a thorough examination of the system's haz
 	\item While the system is inaccessible, the data coming from the vibration sensors will be directly persisted until it is used to update the threshold. The user will also be provided with certain troubleshooting tips in the user manual. Once the system is available again, the application shall publish the updated status of the gearbox using the data logged during downtime.
 \end{enumerate}
 
-\subsection{SID: 2}		
-\textbf{Hazard Category:} Incorrect threshold calculation
+\subsection{Safety Requirement ID: 2}		
+\textbf{Hazard Category:} Incorrect threshold calculation\\
 \textbf{Hazard:}
 \begin{enumerate}
 	\item Wrong data fetched to update threshold
@@ -39,8 +39,8 @@ The safety plan was created following a thorough examination of the system's haz
 	\item Ensure regular maintenance checks of vibration sensors
 \end{enumerate}
 
-\subsection{SID: 3}		
-\textbf{Hazard Category:} Coding or Programming bugs
+\subsection{Safety Requirement ID: 3}		
+\textbf{Hazard Category:} Coding or Programming bugs\\
 \textbf{Hazard:}
 \begin{enumerate}
 	\item Unhandled Exceptions
@@ -63,8 +63,8 @@ The safety plan was created following a thorough examination of the system's haz
 	\item Ensure conversion between different units of vibration is implemented during development phase.
 \end{enumerate}
 
-\subsection{SID: 4}		
-\textbf{Hazard Category:} Database errors
+\subsection{Safety Requirement ID: 4}		
+\textbf{Hazard Category:} Database errors \\
 \textbf{Hazard:}
 \begin{enumerate}
 	\item Configuration file issues
@@ -86,8 +86,8 @@ The safety plan was created following a thorough examination of the system's haz
 	\item Scheduled maintenance checks should be carried out to ensure proper functioning of the database
 \end{enumerate}
 
-\subsection{SID: 5}		
-\textbf{Hazard Category:} Vibration sensor failure (Out of scope)
+\subsection{Safety Requirement ID: 5}		
+\textbf{Hazard Category:} Vibration sensor failure (Out of scope)\\
 \textbf{Hazard:}
 \begin{enumerate}
 	\item Vibration sensor not working
@@ -102,8 +102,8 @@ The safety plan was created following a thorough examination of the system's haz
 \textbf{Safety Plan:}
 User should be notified if the system is not receiving data from all 4 vibration sensors. The application should not predict gearbox status if at least 1 of the sensors are not working 
 
-\subsection{SID: 5}		
-\textbf{Hazard Category:} Electrical failures (Out of scope)
+\subsection{Safety Requirement ID: 6}		
+\textbf{Hazard Category:} Electrical failures (Out of scope)\\
 \textbf{Hazard:} Circuit board damaged
 \begin{enumerate}
 	\item Sensor powerline damaged

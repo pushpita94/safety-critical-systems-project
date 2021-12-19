@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  16 DEC 2021 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.14)  16 DEC 2021 15:49
 entering extended mode
 **./safety-critical-system-project-report.tex
 (safety-critical-system-project-report.tex
@@ -461,12 +461,15 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-[4]) (sections/risks.tex) (sections/requirement.tex) [5 <./images/milestone.png
->] (sections/effort.tex
+[4]) (sections/risks.tex) (sections/effort.tex
 Overfull \hbox (30.53271pt too wide) in paragraph at lines 4--14
  [] 
  []
 
+
+Underfull \vbox (badness 4954) has occurred while \output is active []
+
+ [5 <./images/milestone.png>]
 
 ! Package inputenc Error: Unicode character ∑ (U+2211)
 (inputenc)                not set up for use with LaTeX.
@@ -490,19 +493,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-) [6] (sections/cost-model.tex
-<images/cost-model.png, id=28, 1142.2675pt x 771.88374pt>
-File: images/cost-model.png Graphic file (type png)
-<use images/cost-model.png>
-Package pdftex.def Info: images/cost-model.png  used on input line 5.
-(pdftex.def)             Requested size: 485.97083pt x 328.39369pt.
-
-Overfull \hbox (138.84729pt too wide) in paragraph at lines 5--6
-[][] 
- []
-
-) [7 <./images/cost-model.png>] (sections/data-flow.tex
-<images/DataFlowDiagramLvl0.png, id=35, 412.54124pt x 319.1925pt>
+) [6] (sections/data-flow.tex
+<images/DataFlowDiagramLvl0.png, id=28, 412.54124pt x 319.1925pt>
 File: images/DataFlowDiagramLvl0.png Graphic file (type png)
 <use images/DataFlowDiagramLvl0.png>
 Package pdftex.def Info: images/DataFlowDiagramLvl0.png  used on input line 5.
@@ -512,7 +504,7 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-<images/DataFlowDiagramLvl1.png, id=36, 630.355pt x 501.875pt>
+<images/DataFlowDiagramLvl1.png, id=30, 630.355pt x 501.875pt>
 File: images/DataFlowDiagramLvl1.png Graphic file (type png)
 <use images/DataFlowDiagramLvl1.png>
 Package pdftex.def Info: images/DataFlowDiagramLvl1.png  used on input line 12.
@@ -523,9 +515,9 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 12--13
  [][] 
  []
 
-) [8 <./images/DataFlowDiagramLvl0.png>] [9 <./images/DataFlowDiagramLvl1.png>]
+) [7 <./images/DataFlowDiagramLvl0.png>] [8 <./images/DataFlowDiagramLvl1.png>]
 (sections/control-flow.tex
-<images/control-flow-diagram.png, id=45, 864.22874pt x 811.03pt>
+<images/control-flow-diagram.png, id=40, 864.22874pt x 811.03pt>
 File: images/control-flow-diagram.png Graphic file (type png)
 <use images/control-flow-diagram.png>
 Package pdftex.def Info: images/control-flow-diagram.png  used on input line 5.
@@ -536,8 +528,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [10 <./images/control-flow-diagram.png>] (sections/use-case-dia.tex
-<images/use-case-diagram.png, id=50, 1138.2525pt x 715.67375pt>
+) [9 <./images/control-flow-diagram.png>] (sections/use-case-dia.tex
+<images/use-case-diagram.png, id=45, 1138.2525pt x 715.67375pt>
 File: images/use-case-diagram.png Graphic file (type png)
 <use images/use-case-diagram.png>
 Package pdftex.def Info: images/use-case-diagram.png  used on input line 5.
@@ -547,8 +539,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [11 <./images/use-case-diagram.png>] (sections/seq-dia.tex
-<images/sequence-diagram.png, id=55, 1024.82875pt x 640.3925pt>
+) [10 <./images/use-case-diagram.png>] (sections/seq-dia.tex
+<images/sequence-diagram.png, id=50, 1024.82875pt x 640.3925pt>
 File: images/sequence-diagram.png Graphic file (type png)
 <use images/sequence-diagram.png>
 Package pdftex.def Info: images/sequence-diagram.png  used on input line 6.
@@ -558,8 +550,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 6--7
  [][] 
  []
 
-) [12 <./images/sequence-diagram.png>] (sections/architecture.tex
-<images/system-architecture.png, id=60, 1039.885pt x 529.98pt>
+) [11 <./images/sequence-diagram.png>] (sections/architecture.tex
+<images/system-architecture.png, id=55, 1039.885pt x 529.98pt>
 File: images/system-architecture.png Graphic file (type png)
 <use images/system-architecture.png>
 Package pdftex.def Info: images/system-architecture.png  used on input line 5.
@@ -569,8 +561,8 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [13 <./images/system-architecture.png>] (sections/hazard.tex
-<images/hazard-analysis.png, id=66, 812.03375pt x 669.50125pt>
+) [12 <./images/system-architecture.png>] (sections/hazard.tex
+<images/hazard-analysis.png, id=60, 812.03375pt x 669.50125pt>
 File: images/hazard-analysis.png Graphic file (type png)
 <use images/hazard-analysis.png>
 Package pdftex.def Info: images/hazard-analysis.png  used on input line 5.
@@ -580,7 +572,7 @@ Overfull \hbox (69.42365pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) [14 <./images/hazard-analysis.png>] (sections/safety.tex
+) [13 <./images/hazard-analysis.png>] (sections/safety.tex
 Overfull \hbox (4.18257pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/10 hazard analysis results when it is subjected to specific enviro
 nmental and technical
@@ -591,7 +583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[15]
+[14]
 Overfull \hbox (5.12706pt too wide) in paragraph at lines 78--79
 []\OT1/cmr/m/n/10 Hardware issues or deadlocks arising due to improper transact
 ion management 
@@ -603,19 +595,19 @@ Overfull \hbox (7.84927pt too wide) in paragraph at lines 85--86
 cks and scheduled
  []
 
-
+[15]
 Overfull \hbox (15.73816pt too wide) in paragraph at lines 86--87
 []\OT1/cmr/m/n/10 Scheduled maintenance checks should be carried out to ensure 
 proper functioning
  []
 
-[16]) (sections/question.tex
+) (sections/question.tex
 Overfull \hbox (53.84819pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/10 Theoretic Mischance Modelling and Processes (STAMP) has been ut
 ilized in different zones to
  []
 
-[17]
+[16]
 Overfull \hbox (19.57147pt too wide) in paragraph at lines 5--6
 []\OT1/cmr/m/n/10 Leveson published Systems-Theoretic Accident Modeling and Pro
 cesses (STAMP)
@@ -627,10 +619,7 @@ Overfull \hbox (19.51596pt too wide) in paragraph at lines 15--16
 stigations, influencing
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
+[17]
 Overfull \hbox (5.34929pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 than engineering strategies to deal with it are being developed
 . When outdated
@@ -654,7 +643,7 @@ Overfull \hbox (8.15489pt too wide) in paragraph at lines 28--29
 es of supervision
  []
 
-
+[18]
 Overfull \hbox (9.21042pt too wide) in paragraph at lines 29--30
 []\OT1/cmr/m/n/10 ncrease in complexity and coupling: The majority of the eleme
 nts of complexity,
@@ -678,45 +667,45 @@ Overfull \hbox (5.48822pt too wide) in paragraph at lines 29--30
 ng components,
  []
 
-[19]
+
 Overfull \hbox (0.68268pt too wide) in paragraph at lines 36--38
 \OT1/cmr/m/n/10 interactions among system components are not adequately handled
  by the control
  []
 
-)
-Overfull \hbox (3.12944pt too wide) in paragraph at lines 56--96
+[19])
+Overfull \hbox (3.12944pt too wide) in paragraph at lines 56--89
 []\OT1/cmr/bx/n/10 The Central Role of Constraints in System Safety \OT1/cmr/m/
 n/10 Safety is an emergent
  []
 
 
-Overfull \hbox (3.59924pt too wide) in paragraph at lines 56--96
+Overfull \hbox (3.59924pt too wide) in paragraph at lines 56--89
 \OT1/cmr/m/n/10 behavior of the system components govern or enforce emergent fe
 atures. Accidents
  []
 
-[20] [21] (safety-critical-system-project-report.aux) ) 
+[20] (safety-critical-system-project-report.aux) ) 
 Here is how much of TeX's memory you used:
- 4501 strings out of 480844
- 71082 string characters out of 2903615
- 460248 words of memory out of 3000000
- 22003 multiletter control sequences out of 15000+600000
+ 4483 strings out of 480844
+ 70538 string characters out of 2903615
+ 458229 words of memory out of 3000000
+ 21991 multiletter control sequences out of 15000+600000
  407254 words of font info for 42 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  70i,7n,81p,1297b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/pranay/.miktex/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/pranay/.miktex/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/pranay/.miktex/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home/pranay/.miktex/tex
-mfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/pranay/.miktex/tex
-mfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/pranay/.miktex/texm
-fs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/pranay/.miktex/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on safety-critical-system-project-report.pdf (21 pages, 922372 b
+</home/pranay/.miktex/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/pranay/.miktex/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/pranay/.miktex/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home/pranay/.miktex/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/pranay/.miktex/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/pranay/.miktex/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/pranay/.miktex/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on safety-critical-system-project-report.pdf (20 pages, 581506 b
 ytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
