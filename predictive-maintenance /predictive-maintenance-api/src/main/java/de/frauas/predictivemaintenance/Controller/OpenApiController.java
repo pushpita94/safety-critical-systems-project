@@ -21,4 +21,15 @@ public class OpenApiController {
                 ServerInfo.getServerInfo();
 
     }
+
+    @RequestMapping(value = "/pushu", method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public String welcomePushu(HttpServletRequest request) {
+        System.out.println("Predictive Maintenance API Base GET s called");
+        return "<h2>Ich bin Pushu</h2>" +
+                "Und I have so many questions!! <br/><br/>" +
+                ServerInfo.getServerBuilt() + "<br/>" +
+                ServerInfo.getServerInfo();
+
+    }
 }

@@ -26,6 +26,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo()).select()
                 .paths(postPaths())
                 .build();*/
+                .groupName("Predictive Maintenance API")
                 .apiInfo(apiInfo())
                 .select()
                 .apis(RequestHandlerSelectors.any())
