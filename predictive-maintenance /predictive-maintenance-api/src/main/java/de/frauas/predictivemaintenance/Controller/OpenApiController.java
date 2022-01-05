@@ -33,18 +33,18 @@ public class OpenApiController {
         System.out.println("Predictive Maintenance API Base GET is called");
         LOGGER.info("Predictive Maintenance API Base GET is called");
         return "<h2>Predictive Maintenance API</h2>" +
-                "Welcome to Pushu's API. Enjoy your stay!! <br/><br/>" +
+                "Welcome to  API. Enjoy your stay!! <br/><br/>" +
                 ServerInfo.getServerBuilt() + "<br/>" +
                 ServerInfo.getServerInfo();
 
     }
 
-    @RequestMapping(value = "/pushu", method = RequestMethod.GET)
+    @RequestMapping(value = "/again", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
-    public String welcomePushu(HttpServletRequest request) {
+    public String welcomeagain(HttpServletRequest request) {
         System.out.println("Predictive Maintenance API Base GET s called");
-        return "<h2>Ich bin Pushu</h2>" +
-                "Und I have so many questions!! <br/><br/>" +
+        return "<h2>abcd</h2>" +
+                "uzubuuzuzbu <br/><br/>" +
                 ServerInfo.getServerBuilt() + "<br/>" +
                 ServerInfo.getServerInfo();
 
